@@ -19,6 +19,7 @@ pipelines:
         configuration:
           inputResources:
             - name: my_source_repo
+              trigger: false
         execution:
           onExecute:
             - printenv					# A benign operation for the demo
