@@ -10,6 +10,7 @@ resources:
         commit:                false
         pullRequestCreate:     true
        # releaseRequestCreate : true
+       # test comment
 
 pipelines:      
     - name: pipeline_gitrepo_trigger
