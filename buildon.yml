@@ -5,7 +5,7 @@ resources:
       gitProvider: myGithub
       path: RjSH1/GitRepo
       branches:
-       # include: master
+       include: master
        # buildOn:
        #   commit:                true
        #   pullRequestCreate:     true
