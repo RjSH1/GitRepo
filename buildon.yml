@@ -6,9 +6,9 @@ resources:
       path: RjSH1/GitRepo
       branches:
         include: master
-      # buildOn:
-        # commit:                false
-        # pullRequestCreate:     true
+        buildOn:
+          commit:                true
+          pullRequestCreate:     true
        # releaseRequestCreate : true
        # test comment
 
@@ -20,7 +20,7 @@ pipelines:
         configuration:
           inputResources:
             - name: my_source_repo
- #             trigger: false
+              trigger: true
         execution:
           onExecute:
             - printenv					# A benign operation for the demo
