@@ -6,9 +6,9 @@ resources:
       path: RjSH1/GitRepo
       branches:
         include: master
-      buildOn:
-        commit:                false
-        pullRequestCreate:     true
+      # buildOn:
+        # commit:                false
+        # pullRequestCreate:     true
        # releaseRequestCreate : true
        # test comment
 
